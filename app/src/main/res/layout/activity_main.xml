@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintWeight"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/commonMargin"/>
+
+    <EditText
+        android:id="@+id/edtHeightFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintHeightFeet"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <EditText
+        android:id="@+id/edtHeightInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintHeightInches"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText"
+        android:textSize="@dimen/commonMargin"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="@color/saffron"
+        android:padding="@dimen/commonMargin"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="@dimen/commonMargin" />
+
+
+
+
+
+</LinearLayout>
